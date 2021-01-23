@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #777;
+}
+
+.conteudo {
+  color: #777;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.conteudotitulo {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+  .titulo {
+    font-size: 40px;
+    padding: 20px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    background-color: #073b4c;
+  }
+
+
+.imagem1,
+.imagem2,
+.imagem4,
+.imagem5 {
+  height: 100vh;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.imagem1 {
+  background-image: url(../images/primavera.jpg);
+  background-size: cover;
+}
+
+.imagem2 {
+  background-image: url(../images/inverno.jpg);
+  background-size: cover;
+}
+
+.imagem4 {
+  background-image: url(../images/outono.jpg);
+  background-size: cover;
+}
+
+.imagem5 {
+  background-image: url(../images/verão.jpg);
+  background-size: cover;
+}
